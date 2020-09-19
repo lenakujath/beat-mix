@@ -1,6 +1,6 @@
 // Drum Arrays
-let kicks
-let snares
-let hiHats
-let rideCymbals
+let kicks;
+let snares;
+let hiHats;
+let rideCymbals;
 
