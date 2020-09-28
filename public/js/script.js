@@ -7,18 +7,18 @@ let rideCymbals = [false, false,false, false, false, false, false, false, false,
 
 const toggleDrums = (arr, index) => {
 
-  let toggledArray = [...arr];
+ 
   let currentId = arr[index];
   let newId = !currentId;   
-
-  toggledArray[index] = newId;
-  arr = toggledArray;
-  
-  return arr;
+  return arr[index] = newId;
 }
 
-  console.log(toggleDrums(kicks, 18))
- console.log(kicks)
+  toggleDrums(kicks, 0);
+  console.log(kicks)
+//  console.log(kicks)
+
+
+  
 
 
 
