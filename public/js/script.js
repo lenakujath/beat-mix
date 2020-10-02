@@ -5,10 +5,8 @@ let hiHats = [false, false,false, false, false, false, false, false, false, fals
 let rideCymbals = [false, false,false, false, false, false, false, false, false, false, false, false, false, false, false, false, ];
 
 
-const toggleDrums = (arr, index) => {
-  let currentId = arr[index];
-  let newId = !currentId;   
-  return arr[index] = newId;
+const toggleDrums = (arr, index) => { 
+  return arr[index] =! arr[index];
 };
 
 const clear = (arr) => {
@@ -27,8 +25,8 @@ const invert = (arr) => {
     return arr;
 }
 
-invert(snares)
-console.log(snares)
+toggleDrums(kicks, 1)
+console.log(kicks)
 
 
 
